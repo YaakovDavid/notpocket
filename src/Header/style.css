@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #55BCC9;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 50px;
+  position:relative;
+  bottom: 30px;
+  left: 20px;
+  margin-left: 70px;
+}
+
+.header .img {
+  height: 70px;
+  padding: 0;
+  width: 70px;
+  top: 0;
+  left: 20px;
+  position: relative;
+  top: 60px;
+  filter: invert(1);
+}
+
+nav {
+  text-align: center;
+  padding: 0;
+}

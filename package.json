@@ -1,0 +1,37 @@
+{
+  "name": "project-3",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "connect-pg-simple": "^5.0.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "helmet": "^3.12.1",
+    "open-graph": "^0.2.3",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg-monitor": "^1.0.0",
+    "pg-promise": "^8.4.4",
+    "react": "^16.4.1",
+    "react-burger-menu": "^2.5.2",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:4567",
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.2.0"
+  }
+}

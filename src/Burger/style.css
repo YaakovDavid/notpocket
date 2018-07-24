@@ -1,0 +1,45 @@
+.bm-burger-button {
+  position: relative;
+  right: 60px;
+  bottom: 150px;
+  width: 40px;
+  height: 38px;
+  float: right;
+  filter: invert(1);
+}
+
+.Burger img:hover {
+  background-color: #FC4445;
+}
+
+
+
+.bm-burger-button :hover {
+  background-color: #FC4445;
+}
+
+.bm-overlay {
+  display: none;
+}
+
+.bm-burger-bars {
+  background: white;
+}
+
+.bm-cross {
+  background: white;
+}
+
+.bm-menu-wrap {
+  background-color: #FC4445;
+  right: inherit;
+  z-index: 10;
+  position: fixed;
+}
+
+
+nav {
+  height: 100%;
+}
+
+
